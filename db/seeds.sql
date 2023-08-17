@@ -1,10 +1,10 @@
-INSERT INTO department (name)
+INSERT INTO departments (name)
 VALUES ("Accounting"),
-       ("Customer_Service"),
+       ("Customer Service"),
        ("Marketing"),
        ("Production");
 
-INSERT INTO role (title, salary, department)
+INSERT INTO roles (title, salary, department_id)
 VALUES ("Accountant", 60000.00, 1),
        ("Payroll Clerk", 55000.00, 1),
        ("Customer Support Officer", 55000.00, 2),
@@ -18,28 +18,28 @@ VALUES ("Accountant", 60000.00, 1),
        ("Styles Designer", 60000.00, 4);
 
 
-INSERT INTO employee (first_name, last_name, role_id, manager_id)
-VALUES ("John", "Doe", 1, ),
-       ("Jane", "Smith", 1, 1),
-       ("Jane", "Smith", 1, 1),
-       ("Jane", "Smith", 1, 1),
-       ("Jane", "Smith", 1, 1),
-       ("Jane", "Smith", 1, 1),
-       ("Jane", "Smith", 1, 1),
-       ("Jane", "Smith", 1, 1),
-       ("Jane", "Smith", 1, 1),
-       ("Jane", "Smith", 1, 1),
-       ("Jane", "Smith", 1, 1),
-       ("Jane", "Smith", 1, 1),
-       ("Jane", "Smith", 1, 1),
-       ("Jane", "Smith", 1, 1),
-       ("Jane", "Smith", 1, 1),
-       ("Jane", "Smith", 1, 1),
-       ("Jane", "Smith", 1, 1),
-       ("Jane", "Smith", 1, 1),
-       ("Jane", "Smith", 1, 1),
-       ("Jane", "Smith", 1, 1),
-       ("Jane", "Smith", 1, 1),
-       ("Jane", "Smith", 1, 1),
-       ("Jane", "Smith", 1, 1),
-       ("Jane", "Smith", 1, 1);
+INSERT INTO employees (first_name, last_name, role_id, manager_id)
+VALUES ("John", "Doe", 1, NULL),
+       ("Jane", "Smith", 1, NULL),
+       ("Jane", "Smith", 1, NULL),
+       ("Jane", "Smith", 1, NULL),
+       ("Jane", "Smith", 1, NULL),
+       ("Jane", "Smith", 1, NULL),
+       ("Jane", "Smith", 1, NULL),
+       ("Jane", "Smith", 1, NULL),
+       ("Jane", "Smith", 1, NULL),
+       ("Jane", "Smith", 1, NULL),
+       ("Jane", "Smith", 1, NULL),
+       ("Jane", "Smith", 1, NULL),
+       ("Jane", "Smith", 1, NULL),
+       ("Jane", "Smith", 1, NULL),
+       ("Jane", "Smith", 1, NULL),
+       ("Jane", "Smith", 1, NULL),
+       ("Jane", "Smith", 1, NULL),
+       ("Jane", "Smith", 1, NULL),
+       ("Jane", "Smith", 1, NULL),
+       ("Jane", "Smith", 1, NULL),
+       ("Jane", "Smith", 1, NULL),
+       ("Jane", "Smith", 1, NULL),
+       ("Jane", "Smith", 1, NULL),
+       ("Jane", "Smith", 1, NULL);
